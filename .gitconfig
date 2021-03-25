@@ -1,0 +1,10 @@
+[user]
+	name = chinggg
+	email = 24590067+chinggg@users.noreply.github.com
+[core]
+	fileMode = false
+	editor = vim
+[http]
+	postBuffer = 524288000
+[init]
+	defaultBranch = main
