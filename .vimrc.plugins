@@ -1,0 +1,42 @@
+Plug 'tpope/vim-surround'
+Plug 'ervandew/supertab'
+Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdtree'
+Plug 'w0rp/ale'
+Plug 'lilydjwg/fcitx.vim'
+"Plug 'oblitum/youcompleteme'
+
+map <C-n> :NERDTreeToggle<CR>
+
+let g:markdown_fenced_languages = ['html', 'python', 'bash', 'javascript']
+
+let g:ale_linters = {
+        \   'python': ['pyright'],
+        \   'shell': ['shellcheck'],
+        \}
+
+let g:ale_set_balloons=1
+
+"if executable('clangd')
+    "augroup lsp_clangd
+        "autocmd!
+        "autocmd User lsp_setup call lsp#register_server({
+                    "\ 'name': 'clangd',
+                    "\ 'cmd': {server_info->['clangd']},
+                    "\ 'whitelist': ['c', 'cpp', 'objc', 'objcpp'],
+                    "\ })
+        "autocmd FileType c setlocal omnifunc=lsp#complete
+        "autocmd FileType cpp setlocal omnifunc=lsp#complete
+        "autocmd FileType objc setlocal omnifunc=lsp#complete
+        "autocmd FileType objcpp setlocal omnifunc=lsp#complete
+    "augroup end
+"endif
+
+"if executable('pyls')
+    "au User lsp_setup call lsp#register_server({
+        "\ 'name': 'pyls',
+        "\ 'cmd': {server_info->['pyls']},
+        "\ 'whitelist': ['python'],
+        "\ })
+"endif
+"

@@ -4,7 +4,10 @@
 [core]
 	fileMode = false
 	editor = vim
+	quotepath = off
 [http]
 	postBuffer = 524288000
 [init]
 	defaultBranch = main
+[color]
+	ui = auto
