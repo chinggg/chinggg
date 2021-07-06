@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import os
 import crypt
 
 FILE = '/etc/shadow'
@@ -12,14 +11,14 @@ ans = []
 with open(FILE) as f:
     for x in f:
         try:
-            name, secret, *_  = x.split(':')
+            name, secret, *_ = x.split(':')
             if '$' not in secret:
                 continue
             salt = secret[:secret.rfind('$')]
             for p in pwds:
                 q = crypt.crypt(p, salt)
                 if q == secret:
-                    ans.append((name,p))
+                    ans.append((name, p))
                     break
         except ValueError:
             pass
