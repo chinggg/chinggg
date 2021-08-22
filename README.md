@@ -1,6 +1,6 @@
 ### Hi there 👋
-- 🔭 I’m currently working on Web Automation
-- 🌱 I’m currently learning Data Structure
+- 🔭 I’m currently working on Web Dev
+- 🌱 I’m currently learning Reverse Engineering
 - 👯 I’m looking to collaborate on CTF competitions
 - 🤔 I’m looking for help with time management
 
