@@ -1,7 +1,7 @@
 ### Hi there 👋
-- 🔭 I’m currently working on Software Security
+- 🔭 I’m currently working on Software Testing
 - 🌱 I’m currently learning Program Analysis
-- 👯 I’m looking to collaborate on security research
+- 👯 I’m looking to collaborate on interdisciplinary research
 - 🤔 I’m looking for help with time management
 
 [![chinggg's github stats](https://github-readme-stats.vercel.app/api?username=chinggg&show_icons=true&include_all_commits=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
